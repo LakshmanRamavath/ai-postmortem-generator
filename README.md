@@ -10,8 +10,7 @@ cp .env.example .env
 python main.py "Database connection pool exhausted, 45min outage on payment service"
 ```
 ## Sample Output
-See sample_output.md for an example of generated output.
-
+See [sample_output.md](sample_output.md) for an example of generated output.
 ## How it works
 - Sends incident description to Claude Sonnet via Anthropic API
 - Falls back to Claude on Bedrock if API is unavailable
